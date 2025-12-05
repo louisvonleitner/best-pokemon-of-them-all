@@ -20,7 +20,7 @@ So, one could say that better Pokemon are more likely to face PokeTypes in a fig
 
 In a formula, this is:
 
-$\textit{PokeType likelihood} = \sum_{p \in T} c_p$, where $T$ is the set of Pokemon of PokeType $T$ and $p \in T$ signifies that $p$ is a Pokemon of said type. Further, $c_p := $ Catchrate of Pokemon $p$.
+$$\textit{PokeType likelihood} = \sum_{p \in T} c_p$$, where $T$ is the set of Pokemon of PokeType $T$ and $p \in T$ signifies that $p$ is a Pokemon of said type. Further, $c_p := $ Catchrate of Pokemon $p$.
 
 We here assume that the probability of encountering a Pokemon is proportional to its catch rate. This assumption is intuitive as more rare Pokemon are usually have lower catch rates. The PokeType likelihood is thus a weighted sum over the set of all Pokemon of this PokeType. The weights being the catch rates.
 
